@@ -7,19 +7,8 @@ class EloError(Exception):
   pass
 
 
-
 class FileError(EloError):
-  """Exception raised for file-related errors.
-
-  Attributes:
-    fileName - path to the file
-    message  - error message
-  """
-
-  def __init__(self, expr, msg):
-    self.fileName = fileName
-    self.message = message
-
+  """Exception raised for file-related errors."""
 
 
 class DataError(EloError):
