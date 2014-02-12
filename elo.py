@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 ################################################################################
 # This is a declaration of the main application class Elo
 ################################################################################
@@ -37,5 +38,5 @@ class Elo:
     pass
 
 if __name__ == '__main__':
-  elo = Elo('H:/Tmp/elo/names.txt', 'H:/Tmp/elo/matches.txt')
+  elo = Elo('./names.txt', './matches.txt')
   elo.run()
